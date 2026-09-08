@@ -1,0 +1,20 @@
+{
+  "name": "timothy-portfolio",
+  "version": "1.0.0",
+  "description": "Full-stack developer portfolio for Timothy Joshua Ago-Larsey — Express + SQLite backend with a dynamic vanilla-JS frontend and an admin CRUD dashboard.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node db/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
